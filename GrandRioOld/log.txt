@@ -1,0 +1,8 @@
+Результаты
+Открываем игры из меню 'слоты'
+Открываем игру:RABBIT IN THE HAT
+Статус загрузки игры в плагин: complete
+Игра загружена на:100%, управление передано плагину
+Выход из игры
+июл 08, 2015 12:33:55 AM org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+INFO: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@9cb8225

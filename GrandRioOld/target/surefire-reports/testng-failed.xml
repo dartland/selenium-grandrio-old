@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Tests]">
+  <test name="Test1(failed)">
+    <classes>
+      <class name="ru.st.selenium.LoginGame">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initTestSuite"/>
+          <include name="initWebDriver"/>
+          <include name="testLoginGame"/>
+        </methods>
+      </class> <!-- ru.st.selenium.LoginGame -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Tests] -->

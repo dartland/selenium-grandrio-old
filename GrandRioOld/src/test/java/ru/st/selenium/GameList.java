@@ -33,7 +33,7 @@ public class GameList extends ru.st.selenium.TestNgTestBase {
  * @throws Exception
  */
 @Test
-public void testLoginGame() throws Exception {    
+public void testLoginGame() throws Exception {     
 	
 	
 	driver.manage().window().maximize();
@@ -73,7 +73,7 @@ public void testLoginGame() throws Exception {
     //Thread.sleep(2000);
     // получение списка игр через список класса	
     String id="";   int i=0;
-    List<WebElement> GamesSlot = driver.findElements(By.className("game_cell"));
+    List<WebElement> GamesSlot = driver.findElements(By.className("game_cell")); 
     for (WebElement game_cell : GamesSlot) {
     	id= String.format("%s",game_cell.getAttribute("id")); 
     	if(!id.equals("")){

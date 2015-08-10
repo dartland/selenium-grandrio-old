@@ -1,35 +1,27 @@
 package ru.st.selenium;
 
+import static org.junit.Assert.fail;  
+
 import java.io.File;
 import java.io.PrintStream;
-import java.util.regex.Pattern;
-import java.util.concurrent.TimeUnit;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.testng.*;
-import org.testng.annotations.*;
-
-import static org.junit.Assert.*;
-import static org.hamcrest.CoreMatchers.*;
+import java.util.concurrent.TimeUnit; 
 
 import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-import org.openqa.selenium.*;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.apache.commons.logging.LogFactory; 
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.interactions.HasInputDevices;
 import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
 
-import ru.st.selenium.FlashObjectWebDriver;
-
-public class LoginGame extends ru.st.selenium.TestNgTestBase {
+public class LoginGame extends ru.st.selenium.TestNgTestBase { 
 	
   private static Log log = LogFactory.getLog(LoginGame.class); 
-  private static Logger log2 = LoggerFactory.getLogger(LoginGame.class); 
   private boolean acceptNextAlert = true;
   private int Dragger1 = 1;//смещение при скроллинге
   private int Dragger2 = 1;//смещение после скроллинга
@@ -42,7 +34,7 @@ public class LoginGame extends ru.st.selenium.TestNgTestBase {
 public void testLoginGame() throws Exception {    
 	
 	
-	driver.manage().window().maximize();
+	driver.manage().window().maximize(); 
 	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS); 
 	driver.get("https://test.grandrio.com/ru");
 	

@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Tests">
-                    <span>C:\Tools\selenium_grandrio\GrandRio\src\test\resources\testng.xml</span>
+                    <span>C:\GitHubFolder\selenium-grandrio-old\GrandRioOld\src\test\resources\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -101,7 +101,7 @@
                     <div class="method-list-content failed suite-Tests">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="ru.st.selenium.LoginGame" hash-for-method="testLoginGame">testLoginGame</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Tests" title="ru.st.selenium.GameList" hash-for-method="testLoginGame">testLoginGame</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Tests -->
@@ -119,7 +119,7 @@
           <div class="suite-Tests-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">ru.st.selenium.LoginGame</span>
+              <span class="class-name">ru.st.selenium.GameList</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -127,28 +127,39 @@
                   <a name="testLoginGame">
                   </a> <!-- testLoginGame -->
                   <span class="method-name">testLoginGame</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
-Command duration or timeout: 125 milliseconds
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 548 milliseconds
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;DartlandKitchen&apos;, ip: &apos;192.168.1.40&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+System info: host: &apos;DartlandKitchen&apos;, ip: &apos;192.168.1.37&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: b869da78-98af-4691-b099-8e8ec5fe593c
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 40b08457-b7ce-4434-9ec5-c0e6b80c2f5e
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
-	at ru.st.selenium.LoginGame.testLoginGame(LoginGame.java:39)
-Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:34)
+	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:88)
+	at org.openqa.selenium.interactions.internal.MouseAction.moveToLocation(MouseAction.java:48)
+	at org.openqa.selenium.interactions.ClickAndHoldAction.perform(ClickAndHoldAction.java:37)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:31)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:367)
+	at ru.st.selenium.GameList.openGame(GameList.java:125)
+	at ru.st.selenium.GameList.testLoginGame(GameList.java:81)
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;DartlandKitchen&apos;, ip: &apos;192.168.1.40&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+System info: host: &apos;DartlandKitchen&apos;, ip: &apos;192.168.1.37&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
 Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous3757372492299488547webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9587)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous3757372492299488547webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12257)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous3757372492299488547webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous3757372492299488547webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12279)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous3757372492299488547webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12221)
+	at &lt;anonymous class&gt;.nsCommandProcessor.prototype.execute(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous5010919803557135480webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12343)
+	at &lt;anonymous class&gt;.Dispatcher.executeAs/&lt;(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous5010919803557135480webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9061)
+	at &lt;anonymous class&gt;.Resource.prototype.handle(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous5010919803557135480webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9208)
+	at &lt;anonymous class&gt;.Dispatcher.prototype.dispatch(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous5010919803557135480webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9155)
+	at &lt;anonymous class&gt;.WebDriverServer/&lt;.handle(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous5010919803557135480webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:12128)
+	at &lt;anonymous class&gt;.createHandlerFunc/&lt;(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous5010919803557135480webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2058)
+	at &lt;anonymous class&gt;.ServerHandler.prototype.handleResponse(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous5010919803557135480webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2391)
+	at &lt;anonymous class&gt;.Connection.prototype.process(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous5010919803557135480webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1227)
+	at &lt;anonymous class&gt;.RequestReader.prototype._handleResponse(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous5010919803557135480webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1681)
+	at &lt;anonymous class&gt;.RequestReader.prototype._processBody(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous5010919803557135480webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1529)
+	at &lt;anonymous class&gt;.RequestReader.prototype.onInputStreamReady(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous5010919803557135480webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1397)
 ... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -158,7 +169,7 @@ Driver info: driver.version: unknown
         </div> <!-- panel Tests -->
         <div panel-name="test-xml-Tests" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Tools\selenium_grandrio\GrandRio\src\test\resources\testng.xml</span>
+            <span class="header-content">C:\GitHubFolder\selenium-grandrio-old\GrandRioOld\src\test\resources\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -167,7 +178,7 @@ Driver info: driver.version: unknown
 &lt;suite verbose=&quot;0&quot; name=&quot;Tests&quot;&gt;
   &lt;test name=&quot;Test1&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;ru.st.selenium.LoginGame&quot;/&gt;
+      &lt;class name=&quot;ru.st.selenium.GameList&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test1 --&gt;
 &lt;/suite&gt; &lt;!-- Tests --&gt;
@@ -210,13 +221,13 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testLoginGame')
-data.setCell(0, 2, 'ru.st.selenium.LoginGame')
-data.setCell(0, 3, 4892);
+data.setCell(0, 2, 'ru.st.selenium.GameList')
+data.setCell(0, 3, 257783);
 window.suiteTableData['Tests']= { tableData: data, tableDiv: 'times-div-Tests'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-Tests">
               </div> <!-- times-div-Tests -->
             </div> <!-- times-div -->
@@ -242,24 +253,24 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">ru.st.selenium.LoginGame</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">ru.st.selenium.GameList</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">initTestSuite</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">initWebDriver</span>
-                <span class="method-start">41 ms</span>
+                <span class="method-start">37 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLoginGame</span>
-                <span class="method-start">7364 ms</span>
+                <span class="method-start">15565 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">12393 ms</span>
+                <span class="method-start">273415 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,9 +1,9 @@
 package ru.st.selenium;
 
-import java.io.IOException;
+import java.io.IOException;  
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.Capabilities;
+import org.openqa.selenium.Capabilities; 
 
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
@@ -12,7 +12,7 @@ import org.testng.annotations.BeforeSuite;
 import ru.stqa.selenium.factory.WebDriverFactory;
 import ru.stqa.selenium.factory.WebDriverFactoryMode;
 
-import ru.st.selenium.util.PropertyLoader;
+import ru.st.selenium.util.PropertyLoader;  
 
 /**
  * Base class for TestNG-based test classes

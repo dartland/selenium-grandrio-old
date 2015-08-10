@@ -1,12 +1,12 @@
 package ru.st.selenium.util;
 
-import org.openqa.selenium.Capabilities;
+import org.openqa.selenium.Capabilities;  
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Properties;
+import java.util.Properties; 
 
 /**
  * Class that extracts properties from the prop file.

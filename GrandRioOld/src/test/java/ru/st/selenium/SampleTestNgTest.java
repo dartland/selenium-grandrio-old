@@ -1,6 +1,6 @@
 package ru.st.selenium;
 
-import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.PageFactory; 
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -10,7 +10,7 @@ import ru.st.selenium.pages.HomePage;
 
 public class SampleTestNgTest extends TestNgTestBase {
 
-  private HomePage homepage;
+  private HomePage homepage;   
 
   @BeforeMethod
   public void initPageObjects() {

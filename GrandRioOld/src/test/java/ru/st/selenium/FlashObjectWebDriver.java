@@ -1,6 +1,6 @@
 package ru.st.selenium;
 
-import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.JavascriptExecutor;  
 import org.openqa.selenium.WebDriver;
  
  

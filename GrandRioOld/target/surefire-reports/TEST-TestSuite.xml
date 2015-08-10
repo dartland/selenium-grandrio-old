@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="4.999" tests="1" errors="0" skipped="0" failures="1">
+<testsuite name="TestSuite" time="257.808" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Java\jre1.8.0_45\bin"/>
+    <property name="sun.boot.library.path" value="C:\Java\jdk1.8.0_45\jre\bin"/>
     <property name="java.vm.version" value="25.45-b02"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\GitHubFolder\selenium-grandrio-old\GrandRioOld"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,19 +16,19 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Tools\selenium_grandrio\GrandRio"/>
+    <property name="user.dir" value="C:\GitHubFolder\selenium-grandrio-old\GrandRioOld"/>
     <property name="java.runtime.version" value="1.8.0_45-b14"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Java\jre1.8.0_45\lib\endorsed"/>
+    <property name="java.endorsed.dirs" value="C:\Java\jdk1.8.0_45\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\CD86~1\AppData\Local\Temp\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Tools\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5738951602962205197.tmp"/>
+    <property name="classworlds.conf" value="C:\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7662227657277328278.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.library.path" value="C:\Java\jre1.8.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Java/jre1.8.0_45/bin/server;C:/Java/jre1.8.0_45/bin;C:/Java/jre1.8.0_45/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security 10 for Windows SP1\;C:\Program Files (x86)\Skype\Phone\;C:\Tools\;C:\apache-maven-3.3.3\bin;Selenium2-Java-QuickStart-Archetype-master;C:\Java\jdk1.8.0_45\bin;C:\Tools\selenium_start;C:\Tools\webdriver-testng-archetype-master;;C:\eclipse;;."/>
+    <property name="java.library.path" value="C:\Java\jdk1.8.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_51/bin/server;C:/Program Files/Java/jre1.8.0_51/bin;C:/Program Files/Java/jre1.8.0_51/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security 10 for Windows SP1\;C:\Program Files (x86)\Skype\Phone\;C:\Tools\;C:\wamp\bin\php\php5.5.12;C:\ProgramData\ComposerSetup\bin;C:\wamp\www\mink-behat-acceptance-test-demo-master\Drivers\phantomjs\bin\;C:\Java\jdk1.8.0_45\;C:\Program Files\Apache Software Foundation\apache-maven-3.3.3\bin;C:\Program Files\Internet Explorer;C:\Users\Алексей\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\Алексей;C:\Java\jdk1.8.0_45\bin;C:\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -38,21 +39,20 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1251"/>
     <property name="user.name" value="Алексей"/>
-    <property name="java.class.path" value="/C:/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.5.1.20150109-1819/jars/plexus-classworlds-2.5.1.jar"/>
-    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.class.path" value="/C:/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.0.20150526-2031/jars/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Java\jre1.8.0_45"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="C:\Java\jdk1.8.0_45\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="ru"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="1.8.0_45"/>
-    <property name="java.ext.dirs" value="C:\Java\jre1.8.0_45\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Java\jre1.8.0_45\lib\resources.jar;C:\Java\jre1.8.0_45\lib\rt.jar;C:\Java\jre1.8.0_45\lib\sunrsasign.jar;C:\Java\jre1.8.0_45\lib\jsse.jar;C:\Java\jre1.8.0_45\lib\jce.jar;C:\Java\jre1.8.0_45\lib\charsets.jar;C:\Java\jre1.8.0_45\lib\jfr.jar;C:\Java\jre1.8.0_45\classes"/>
+    <property name="java.ext.dirs" value="C:\Java\jdk1.8.0_45\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Java\jdk1.8.0_45\jre\lib\resources.jar;C:\Java\jdk1.8.0_45\jre\lib\rt.jar;C:\Java\jdk1.8.0_45\jre\lib\sunrsasign.jar;C:\Java\jdk1.8.0_45\jre\lib\jsse.jar;C:\Java\jdk1.8.0_45\jre\lib\jce.jar;C:\Java\jdk1.8.0_45\jre\lib\charsets.jar;C:\Java\jdk1.8.0_45\jre\lib\jfr.jar;C:\Java\jdk1.8.0_45\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Tools\selenium_grandrio\GrandRio\EMBEDDED"/>
+    <property name="maven.home" value="C:\GitHubFolder\selenium-grandrio-old\GrandRioOld\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -60,42 +60,169 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testLoginGame" classname="ru.st.selenium.LoginGame" time="4.999">
-    <failure message="Element is not currently visible and so may not be interacted with&#10;Command duration or timeout: 125 milliseconds&#10;Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;&#10;System info: host: &apos;DartlandKitchen&apos;, ip: &apos;192.168.1.40&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: b869da78-98af-4691-b099-8e8ec5fe593c" type="org.openqa.selenium.ElementNotVisibleException"><![CDATA[org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
-Command duration or timeout: 125 milliseconds
+  <testcase name="testLoginGame" classname="ru.st.selenium.GameList" time="257.808">
+    <failure message="Window not found. The browser window may have been closed.&#10;Command duration or timeout: 548 milliseconds&#10;Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;&#10;System info: host: &apos;DartlandKitchen&apos;, ip: &apos;192.168.1.37&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 40b08457-b7ce-4434-9ec5-c0e6b80c2f5e" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 548 milliseconds
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'DartlandKitchen', ip: '192.168.1.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+System info: host: 'DartlandKitchen', ip: '192.168.1.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: b869da78-98af-4691-b099-8e8ec5fe593c
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 40b08457-b7ce-4434-9ec5-c0e6b80c2f5e
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
-	at ru.st.selenium.LoginGame.testLoginGame(LoginGame.java:39)
-Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:34)
+	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:88)
+	at org.openqa.selenium.interactions.internal.MouseAction.moveToLocation(MouseAction.java:48)
+	at org.openqa.selenium.interactions.ClickAndHoldAction.perform(ClickAndHoldAction.java:37)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:31)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:367)
+	at ru.st.selenium.GameList.openGame(GameList.java:125)
+	at ru.st.selenium.GameList.testLoginGame(GameList.java:81)
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'DartlandKitchen', ip: '192.168.1.40', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+System info: host: 'DartlandKitchen', ip: '192.168.1.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
 Driver info: driver.version: unknown
-	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous3757372492299488547webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9587)
-	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous3757372492299488547webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12257)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous3757372492299488547webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous3757372492299488547webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12279)
-	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous3757372492299488547webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12221)
+	at <anonymous class>.nsCommandProcessor.prototype.execute(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous5010919803557135480webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12343)
+	at <anonymous class>.Dispatcher.executeAs/<(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous5010919803557135480webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9061)
+	at <anonymous class>.Resource.prototype.handle(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous5010919803557135480webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9208)
+	at <anonymous class>.Dispatcher.prototype.dispatch(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous5010919803557135480webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9155)
+	at <anonymous class>.WebDriverServer/<.handle(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous5010919803557135480webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:12128)
+	at <anonymous class>.createHandlerFunc/<(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous5010919803557135480webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2058)
+	at <anonymous class>.ServerHandler.prototype.handleResponse(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous5010919803557135480webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2391)
+	at <anonymous class>.Connection.prototype.process(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous5010919803557135480webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1227)
+	at <anonymous class>.RequestReader.prototype._handleResponse(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous5010919803557135480webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1681)
+	at <anonymous class>.RequestReader.prototype._processBody(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous5010919803557135480webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1529)
+	at <anonymous class>.RequestReader.prototype.onInputStreamReady(file:///C:/Users/CD86~1/AppData/Local/Temp/anonymous5010919803557135480webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1397)
 ]]></failure>
     <system-out><![CDATA[...
 ... TestNG 6.8.9beta by C?dric Beust (cedric@beust.com)
 ...
 
 Результаты
-MERMAIDS MILLIONS
-
-
+Открываем игры из меню 'слоты'
+Значение 'id=195570'
+Найден элемент прокрутки
+Найден локатор: .//*[@id='195570']/b
+его значение: RABBIT IN THE HAT
+Подвели указатель к элементу для появления кнопок
+Вход в игру: RABBIT IN THE HAT
+Найден: .//*[@id='195570']/div[2]/a[2]
+Он невидимый: .//*[@id='195570']/div[2]/a[2]
+Значение 'id=195568'
+Найден элемент прокрутки
+Найден локатор: .//*[@id='195568']/b
+его значение: GUNG POW
+Подвели указатель к элементу для появления кнопок
+Вход в игру: GUNG POW
+Найден: .//*[@id='195568']/div[2]/a[2]
+Он видимый: .//*[@id='195568']/div[2]/a[2]
+Найден iframe[contains(@class,'egamings_game_frame')]
+Статус загрузки игры в плагин: complete
+Найден элемент с  id=play_box
+Выход из игры
+Значение 'id=195567'
+Найден элемент прокрутки
+Найден локатор: .//*[@id='195567']/b
+его значение: GOLDEN PRINCESS
+Подвели указатель к элементу для появления кнопок
+Вход в игру: GOLDEN PRINCESS
+Найден: .//*[@id='195567']/div[2]/a[2]
+Он видимый: .//*[@id='195567']/div[2]/a[2]
+Найден iframe[contains(@class,'egamings_game_frame')]
+Статус загрузки игры в плагин: complete
+Найден элемент с  id=play_box
+Выход из игры
+Значение 'id=195566'
+Найден элемент прокрутки
+Найден локатор: .//*[@id='195566']/b
+его значение: FISH PARTY
+Подвели указатель к элементу для появления кнопок
+Вход в игру: FISH PARTY
+Найден: .//*[@id='195566']/div[2]/a[2]
+Он видимый: .//*[@id='195566']/div[2]/a[2]
+Найден iframe[contains(@class,'egamings_game_frame')]
+Статус загрузки игры в плагин: complete
+Найден элемент с  id=play_box
+Выход из игры
+Значение 'id=175476'
+Найден элемент прокрутки
+Найден локатор: .//*[@id='175476']/b
+его значение: TREASURE ISLAND
+Подвели указатель к элементу для появления кнопок
+Вход в игру: TREASURE ISLAND
+Найден: .//*[@id='175476']/div[2]/a[2]
+Он невидимый: .//*[@id='175476']/div[2]/a[2]
+Значение 'id=175474'
+Найден элемент прокрутки
+Найден локатор: .//*[@id='175474']/b
+его значение: BIG CHEF
+Подвели указатель к элементу для появления кнопок
+Вход в игру: BIG CHEF
+Найден: .//*[@id='175474']/div[2]/a[2]
+Он невидимый: .//*[@id='175474']/div[2]/a[2]
+Значение 'id=175473'
+Найден элемент прокрутки
+Найден локатор: .//*[@id='175473']/b
+его значение: ARIANA
+Подвели указатель к элементу для появления кнопок
+Вход в игру: ARIANA
+Найден: .//*[@id='175473']/div[2]/a[2]
+Он невидимый: .//*[@id='175473']/div[2]/a[2]
+Значение 'id=99767'
+Найден элемент прокрутки
+Найден локатор: .//*[@id='99767']/b
+его значение: SPELL OF ODIN
+Подвели указатель к элементу для появления кнопок
+Вход в игру: SPELL OF ODIN
+Найден: .//*[@id='99767']/div[2]/a[2]
+Он невидимый: .//*[@id='99767']/div[2]/a[2]
+Значение 'id=99766'
+Найден элемент прокрутки
+Найден локатор: .//*[@id='99766']/b
+его значение: VIKING QUEST
+Подвели указатель к элементу для появления кнопок
+Вход в игру: VIKING QUEST
+Найден: .//*[@id='99766']/div[2]/a[2]
+Он видимый: .//*[@id='99766']/div[2]/a[2]
+Найден iframe[contains(@class,'egamings_game_frame')]
+Статус загрузки игры в плагин: complete
+Найден элемент с  id=play_box
+Выход из игры
+Значение 'id=99765'
+Найден элемент прокрутки
+Найден локатор: .//*[@id='99765']/b
+его значение: VOLCANO ERUPTION
+Подвели указатель к элементу для появления кнопок
+Вход в игру: VOLCANO ERUPTION
+Найден: .//*[@id='99765']/div[2]/a[2]
+Он невидимый: .//*[@id='99765']/div[2]/a[2]
+Значение 'id=99764'
+Найден элемент прокрутки
+Найден локатор: .//*[@id='99764']/b
+его значение: FAERIES FORTUNE
+Подвели указатель к элементу для появления кнопок
+Вход в игру: FAERIES FORTUNE
+Найден: .//*[@id='99764']/div[2]/a[2]
+Он видимый: .//*[@id='99764']/div[2]/a[2]
+Найден iframe[contains(@class,'egamings_game_frame')]
+Статус загрузки игры в плагин: complete
+Найден элемент с  id=play_box
+Выход из игры
+Значение 'id=99763'
+Найден элемент прокрутки
+Найден локатор: .//*[@id='99763']/b
+его значение: FORSAKEN KINGDOM
+Подвели указатель к элементу для появления кнопок
+Вход в игру: FORSAKEN KINGDOM
+Найден: .//*[@id='99763']/div[2]/a[2]
+Он невидимый: .//*[@id='99763']/div[2]/a[2]
+Значение 'id=95450'
+Найден элемент прокрутки
 ]]></system-out>
   </testcase>
 </testsuite>

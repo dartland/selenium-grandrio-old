@@ -3,14 +3,14 @@
 <suite verbose="0" name="Failed suite [Tests]">
   <test name="Test1(failed)">
     <classes>
-      <class name="ru.st.selenium.LoginGame">
+      <class name="ru.st.selenium.GameList">
         <methods>
           <include name="tearDown"/>
           <include name="initTestSuite"/>
           <include name="initWebDriver"/>
           <include name="testLoginGame"/>
         </methods>
-      </class> <!-- ru.st.selenium.LoginGame -->
+      </class> <!-- ru.st.selenium.GameList -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Tests] -->
